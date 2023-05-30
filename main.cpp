@@ -29,7 +29,8 @@ void print_intro()
 
     std::cout << "\nThere two game modes (sign and number) choose sign to guess whether the random number\n"
                  "from the range [-10, 10] is positive (x2 win), negative (x2 win) or equal to 0 (x10 win).\n"
-                 "Choose number to guess the exact number from the range [1, 7] (x5 win). You can stop playing whenever you want!\n\n";
+                 "Choose number to guess the exact number from the range [1, 7] (x5 win). \n"
+                 "Try to hold on to your money for as long as possible!\n\n";
 }
 
 std::string get_game()
